@@ -9,7 +9,7 @@ def merge(nums1, m, nums2, n):
 
     #Iterate from the end of both arrays to the start
     while p1 >= 0 and p2 >= 0:
-        #if the current element in nums1 is greater than the current element in 
+        #if the current element in nums1 is greater than the current element in nums2
         #then place the current element from nums1 at the end of the merged array
         if nums1[p1] > nums2[p2]:
             nums1[p] = nums1[p1]
@@ -29,7 +29,7 @@ def merge(nums1, m, nums2, n):
         nums1[:p2 + 1] = nums2[:p2 + 1]
 
 #Test cases
-nums1_1 = [1, 2, 3, 0, 0, 0]
+nums1_1 = [34, 45, 90, 0, 0, 0]
 m_1 = 3
 nums2_1 = [2, 5, 6]
 n_1 = 3
