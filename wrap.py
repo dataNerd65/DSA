@@ -27,3 +27,10 @@ nm2 = [2, 5, 6]
 n = 3
 mergeArray.merge(nm1, m, nm2, n)
 print(nm1)
+
+class Math:
+    @staticmethod
+    def square(n):
+        return n * n
+    
+print(Math.square(5))
