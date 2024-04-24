@@ -28,9 +28,26 @@ n = 3
 mergeArray.merge(nm1, m, nm2, n)
 print(nm1)
 
+# @staticmethod decorator
 class Math:
     @staticmethod
     def square(n):
         return n * n
     
 print(Math.square(5))
+
+# @classmethod
+class MyClass:
+    class_attributes = "Initial value"
+
+    @classmethod
+    def modify_class_attribute(cls, new_value):
+        cls.class_attribute = new_value
+
+#Modify the class attribute using the class method
+MyClass.modify_class_attribute("New Value")
+
+#Print the modified class attribute
+print(MyClass.class_attribute)
+
+
