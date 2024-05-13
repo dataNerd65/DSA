@@ -1,6 +1,6 @@
 class SortEx:
     def SortInExample(my_array):
-      #my_array= [7, 12, 9, 4, 11]
+      #my_array= [7, 12, 9, 4, 11] Make sure we reuse the function
 
       minVal = my_array[0]
 
