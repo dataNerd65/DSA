@@ -9,6 +9,7 @@ public class Main{
         }
         System.out.println("Lowest value: " + minVal);
     }
+    
     public static void main(String[] args){
         sortInExample(new int[] {7, 12, 9, 4, 11});
         sortInExample(new int[] {3, 5, 2, 1});
