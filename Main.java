@@ -1,5 +1,10 @@
 public class Main{
-    public static void sortInExample(int[] myArray){
+    private int[] myArray;
+
+    public Main(int[] myArray){
+        this.myArray = myArray;
+    }
+    public  void sortInExample(){
         int minVal = myArray[0];
 
         for (int i : myArray){
@@ -11,8 +16,13 @@ public class Main{
     }
     
     public static void main(String[] args){
-        sortInExample(new int[] {7, 12, 9, 4, 11});
-        sortInExample(new int[] {3, 5, 2, 1});
+      Main instance1 = new Main(new int[] {7, 12, 9, 4, 11});
+        instance1.sortInExample();
+
+      Main instance2 = new Main(new int[] {3, 5, 2, 1});
+      instance2.sortInExample();
+
+         
     }
 
 }
