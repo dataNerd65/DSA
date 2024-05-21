@@ -1,3 +1,4 @@
+//Creating a fibonacci code to get fibonacci using java
 public class Fibon {
     public static void main(String[] args){
         int prev2 = 0;
