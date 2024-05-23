@@ -25,7 +25,6 @@ class Solution:
                     path.append(substring)
                     backtrack(end, path)
                     path.pop()
-
         
         #The function initializes the result list res and starts the backtracking process from index 0.
         res = []
