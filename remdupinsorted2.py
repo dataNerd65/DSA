@@ -38,3 +38,5 @@ print(k, nums[:k])
 nums2 = [0, 0, 1, 1, 1, 1, 2, 3, 3]
 k1 = soln.remDuplicates(nums2)
 print(k1, nums2)
+
+#Due to the
