@@ -37,6 +37,7 @@ print(k, nums[:k])
 
 nums2 = [0, 0, 1, 1, 1, 1, 2, 3, 3]
 k1 = soln.remDuplicates(nums2)
-print(k1, nums2)
+print(k1, nums2[:k1]) #Be keen
 
-#Due to the
+#Due to the fact that in some languages the array length is not changeable,  you must instead have the result be placed in the first part of the array nums
+#Be keen not to make mistakes

@@ -14,7 +14,7 @@ class Solution:
 
             else:
                 count = 1
-
+            #Allow up to 3 occurrences of the same element
             if count <= 3:
                 nums[write] = nums[current]
                 write += 1
