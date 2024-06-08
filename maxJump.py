@@ -1,6 +1,7 @@
 class Solution:
     def maxJump(self, nums):
-        
+
+        #Initialize maxReachale to 0. This will store the farthest index we can reach at any point.
         maxReachable = 0
 
         for i in range(len(nums)):
