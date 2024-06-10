@@ -1,6 +1,6 @@
 class Solution:
     def RomanToInt(self, s):
-        #Defining the dctionary mapping Roman Numerals to their values.
+        #Defining the dictionary mapping Roman Numerals to their values.
         roman_to_int = {
             'I':1,
             'V':5,
@@ -11,7 +11,7 @@ class Solution:
             'M': 1000
         }
 
-        #Step 2: Initialize the total to 0.
+        #Step 2: Initialize the total to 0. This variable will hold the final integer value of the roman numeral.
         total = 0
         #Iterate through the strings
         length = len(s)
@@ -28,4 +28,3 @@ class Solution:
     
 solution = Solution()
 print(solution.RomanToInt('MCMXCIV'))
-
